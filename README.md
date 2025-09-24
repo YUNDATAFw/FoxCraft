@@ -1,45 +1,53 @@
 # Fox_Craft
-这是一款为《我的世界》设计的辅助工具，提供多种功能，帮助玩家更好地体验游戏。
+- This is a support tool designed for 'Minecraft', offering various functions to help players better experience the game.
 
 
-* Fox科技 v4.2.0 更新日志
+ - Developer: Fsy@YunData
+ - Suggestions: MC little instruction @Bilibili
+
+-  The submission address for valuable comments: air114514homo@outlook.com
+
+- Please do not harm others' gaming experience, or don't blame me if there are no updates.
 
 
-** 更新内容
+* Fox Technology v4.2.0 update readme
 
 
-1.全面重写页面布局，使用Google Material Design3 组件，重构底层框架。
+** Update content **
 
 
-2.增加 _快捷键、 灵动显示_ 功能。
+1.Completely rewrite the page layout, use Google Material Design 3 components, and reconstruct the underlying framework.
 
 
-3.美化布局UI，图标。
+2.Add shortcut keys and dynamic display features.
 
 
-4.提升部分功能频率：
+3.Beautify the layout UI and icons.
 
 
-		“自动攻击”(30次/s -> 100次/s)
+4.Enhance certain functions to stimulate frequency:
+
+
+		"Auto attack" (30 times/s -> 100 times/s)
 		
 		
-		“自动崩服”(800次/s -> 1000次/s)
+		"Automatic Collapse System" (800 times/s -> 1000 times/s)
 		
 		
-5.修改“展框拿取”属性为单击。
+5.Change the 'Exhibit Frame Take' button type to click.
 
 
-6.加强权限判断管理。
+6.You must have most of the permissions to start the service.
 
 
-7.加入切换当前输入法选项。
+7.Join to switch the current input method options.
 
 
-8.加入版本管理机制，允许非最新版本运行(从此版本起,低于此版本依然无法运行)。
+8.Implement a version management mechanism that allows non-latest versions to run (from this version onwards, versions lower than this will still be unable to run).
 
 
-9.修复更新提示无法正常显示的问题。
+9.Fix the issue where the update prompt cannot be displayed properly.
 
 
-10.修复了一些已知bug。
+10.Fixed some known bugs.
 
