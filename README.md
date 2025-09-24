@@ -2,8 +2,8 @@
 - This is a support tool designed for 'Minecraft', offering various functions to help players better experience the game.
 
 
- - Developer: Fsy@YunData
- - Suggestions: MC little instruction @Bilibili
+ - Developer: Fsy @YunData
+ - Suggestions: MC小小指令 @Bilibili
 
 -  The submission address for valuable comments: air114514homo@outlook.com
 
