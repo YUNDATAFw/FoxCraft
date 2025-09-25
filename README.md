@@ -1,8 +1,8 @@
 # 狐狸科技 | FoxCraft
 
+![ic_launcher_3](https://yundata.leid.top/src/img/Fox/ic_launcher_3.png)
 
-
-	![ic_launcher_3](https://yundata.leid.top/src/img/Fox/ic_launcher_3.png)
+	
 	该条目经适用与 v4.2.0 及以后的的版本
     Pro版皆可使用
 
