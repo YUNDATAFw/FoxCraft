@@ -46,7 +46,7 @@
 
 在授权页面中找到“狐狸科技”，并且点击
 
-![ResizedImage_1758763213364](_res/ResizedImage_1758763213364.png)
+![ResizedImage_1758763213364](https://yundata.leid.top/src/img/Fox/ResizedImage_1758763213364.png)
 
 点击开关，使其状态更改为激活状态
 
