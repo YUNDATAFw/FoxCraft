@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:layout_margin="5dp"
+     app:cardCornerRadius="16dp">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:background="?attr/backgroundColor"
+         android:padding="0dp"
+         android:orientation="vertical">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:padding="16dp"
+             android:orientation="horizontal">
+
+            <LinearLayout
+                 android:layout_height="match_parent"
+                 android:layout_width="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_weight="1">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:textSize="16sp"
+                     android:textColor="?attr/inverseSurfaceColor"
+                     android:text="图片处理器"
+                     android:id="@+id/plugin_name"
+                     android:textStyle="bold" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:textSize="12sp"
+                     android:textColor="?attr/onSurfaceVariantColor"
+                     android:text="v1.2.0"
+                     android:id="@+id/plugin_version" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:paddingEnd="16dp"
+             android:paddingBottom="16dp"
+             android:textSize="14sp"
+             android:textColor="?attr/onSurfaceVariantColor"
+             android:paddingStart="16dp"
+             android:text="提供图片裁剪、滤镜和格式转换功能"
+             android:id="@+id/plugin_description"
+             android:paddingTop="0dp" />
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="end"
+             android:background="?attr/inverseOnSurfaceColor"
+             android:padding="8dp"
+             android:orientation="horizontal">
+
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textSize="14sp"
+                 style="@style/Widget.Material3.Button.TextButton.Icon"
+                 android:paddingHorizontal="16dp"
+                 android:id="@+id/btn_settings"
+                 android:text="设置" />
+
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textSize="14sp"
+                 android:textColor="?attr/errorColor"
+                 style="@style/Widget.Material3.Button.TextButton.Icon"
+                 android:paddingHorizontal="16dp"
+                 android:id="@+id/btn_uninstall"
+                 android:text="卸载" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

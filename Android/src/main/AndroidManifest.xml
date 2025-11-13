@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 必要权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.BACKGROUND_ACTIVITY_START" />
+    <uses-permission android:name="android.permission.INPUT_METHOD" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BIND_INPUT_METHOD" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <application
+        android:name=".widget.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Red"
+        android:usesCleartextTraffic="true"
+        
+    >
+    
+        <activity
+            android:name=".layout.SplashActivity"
+            android:exported="true"
+            
+        >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN" />
+                <category
+                    android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".layout.TogaActivity" />
+        <activity android:name=".layout.SettingsActivity" />
+        <activity android:name=".layout.HelpActivity" />
+        <activity android:name=".layout.SettingActivity" />
+        <activity android:name=".layout.PluginManageIntent" />
+        <activity android:name=".layout.Plugin.IInstallManage" />
+        <!-- 悬浮窗服务 -->
+        <service
+            android:name=".FloatingKeyboardService"
+            android:exported="false"
+            
+        />
+        <service
+            android:name=".Service.ToolService"
+            android:exported="false"
+            
+        />
+        <!-- 输入法服务 -->
+        <service
+            android:name=".CustomInputMethodService"
+            android:exported="false"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            
+        >
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method"
+                
+            />
+        </service>
+        <!-- 是否为Xposed模块 -->
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true"
+            
+        />
+        <!-- 模块的简介（在框架中显示） -->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="狐狸科技"
+            
+        />
+        <!-- 模块最低支持的Api版本 一般填54即可 -->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54"
+            
+        />
+        <!-- 模块作用域 -->
+        <meta-data
+            android:name="xposedscope"
+            android:resource="@array/xposedscope"
+            
+        />
+    </application>
+</manifest>

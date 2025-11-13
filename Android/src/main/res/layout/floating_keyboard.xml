@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keyboardContainer"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    android:padding="8dp"
+    android:elevation="8dp"
+    android:radius="8dp">
+
+    <!-- 按键区域（作为键盘主体） -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="A"
+            android:textSize="24sp"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnB"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="B"
+            android:textSize="24sp"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="C"
+            android:textSize="24sp"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="D"
+            android:textSize="24sp"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"/>
+    </LinearLayout>
+
+    <!-- 功能按钮区 -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="136dp"
+            android:layout_height="50dp"
+            android:text="删除"
+            android:layout_marginRight="4dp"
+            android:backgroundTint="@android:color/holo_orange_light"/>
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="136dp"
+            android:layout_height="50dp"
+            android:text="关闭"
+            android:layout_marginLeft="4dp"
+            android:backgroundTint="@android:color/holo_red_light"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+</LinearLayout>

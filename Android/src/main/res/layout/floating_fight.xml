@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="wrap_content"
+     android:orientation="vertical"
+     android:id="@+id/floating_fight">
+
+    <androidx.cardview.widget.CardView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         app:cardElevation="0dp"
+         app:cardBackgroundColor="#FFFFFFFF"
+         app:cardCornerRadius="16dp"
+         android:id="@+id/view1">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:orientation="vertical"
+             android:id="@+id/view10">
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:background="#FF8BE2FF"
+                 android:orientation="vertical"
+                 android:layout_weight="1"
+                 android:id="@+id/view3">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:layout_margin="10dp"
+                     android:textSize="18sp"
+                     android:textColor="#FF191919"
+                     android:id="@+id/view12"
+                     android:layout_gravity="center"
+                     android:text="战斗类" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="match_parent"
+                 android:visibility="gone"
+                 android:orientation="vertical"
+                 android:id="@+id/view31">
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:orientation="vertical"
+                     android:layout_weight="1"
+                     android:id="@+id/view13">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:layout_margin="10dp"
+                         android:textSize="18sp"
+                         android:textColor="#FF191919"
+                         android:id="@+id/view14"
+                         android:layout_gravity="center"
+                         android:text="自动点击" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:orientation="vertical"
+                     android:layout_weight="1"
+                     android:id="@+id/view15">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:layout_margin="10dp"
+                         android:textSize="18sp"
+                         android:textColor="#FF191919"
+                         android:id="@+id/view16"
+                         android:layout_gravity="center"
+                         android:text="自动放置" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:orientation="vertical"
+                     android:layout_weight="1"
+                     android:id="@+id/view19">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:layout_margin="10dp"
+                         android:textSize="18sp"
+                         android:textColor="#FF191919"
+                         android:id="@+id/view20"
+                         android:layout_gravity="center"
+                         android:text="自动走路" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                     android:layout_height="wrap_content"
+                     android:layout_width="match_parent"
+                     android:orientation="vertical"
+                     android:layout_weight="1"
+                     android:id="@+id/view17">
+
+                    <TextView
+                         android:layout_height="wrap_content"
+                         android:layout_width="wrap_content"
+                         android:layout_margin="10dp"
+                         android:textSize="18sp"
+                         android:textColor="#FF191919"
+                         android:id="@+id/view18"
+                         android:layout_gravity="center"
+                         android:text="兔子跳跃" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

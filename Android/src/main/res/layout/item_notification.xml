@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:clickable="true"
+     android:layout_margin="3dp"
+     app:cardElevation="0dp"
+     app:cardBackgroundColor="?attr/inverseOnSurfaceColor"
+     style="?attr/materialCardViewFilledStyle"
+     app:cardCornerRadius="12dp"
+     android:focusable="true"
+     android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:orientation="vertical">
+
+        <LinearLayout
+             android:layout_height="wrap_content"
+             android:layout_width="match_parent"
+             android:gravity="center_vertical"
+             android:padding="10dp"
+             android:orientation="horizontal">
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textSize="14sp"
+                  android:textColor="?attr/onPrimaryContainerColor"
+                 android:layout_weight="1"
+                 android:id="@+id/title"
+                 android:text="Title"
+                 android:textStyle="bold" />
+
+            <ImageView
+                 android:layout_height="15dp"
+                 android:layout_width="15dp"
+                 android:src="@drawable/menu_left"
+                 android:tint="?attr/onPrimaryContainerColor"
+                 android:id="@+id/icon" />
+
+        </LinearLayout>
+
+        <TextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:visibility="gone"
+             android:padding="10dp"
+             android:textSize="11sp"
+             android:textColor="?attr/colorOnSurfaceVariant"
+             android:id="@+id/content"
+             android:text="Content" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

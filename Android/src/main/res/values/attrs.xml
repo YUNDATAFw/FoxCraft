@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Generic Theme Attributes -->
+    <attr name="backgroundColor" format="reference|color" />
+    <attr name="errorColor" format="reference|color" />
+    <attr name="errorContainerColor" format="reference|color" />
+    <attr name="inverseOnSurfaceColor" format="reference|color" />
+    <attr name="inversePrimaryColor" format="reference|color" />
+    <attr name="inverseSurfaceColor" format="reference|color" />
+    <attr name="onBackgroundColor" format="reference|color" />
+    <attr name="onErrorColor" format="reference|color" />
+    <attr name="onErrorContainerColor" format="reference|color" />
+    <attr name="onPrimaryColor" format="reference|color" />
+    <attr name="onPrimaryContainerColor" format="reference|color" />
+    <attr name="onSecondaryColor" format="reference|color" />
+    <attr name="onSecondaryContainerColor" format="reference|color" />
+    <attr name="onSurfaceColor" format="reference|color" />
+    <attr name="onSurfaceVariantColor" format="reference|color" />
+    <attr name="onTertiaryColor" format="reference|color" />
+    <attr name="onTertiaryContainerColor" format="reference|color" />
+    <attr name="outlineColor" format="reference|color" />
+    <attr name="outlineVariantColor" format="reference|color" />
+    <attr name="primaryColor" format="reference|color" />
+    <attr name="primaryContainerColor" format="reference|color" />
+    <attr name="scrimColor" format="reference|color" />
+    <attr name="secondaryColor" format="reference|color" />
+    <attr name="secondaryContainerColor" format="reference|color" />
+    <attr name="surfaceColor" format="reference|color" />
+    <attr name="surfaceTintColor" format="reference|color" />
+    <attr name="surfaceVariantColor" format="reference|color" />
+    <attr name="tertiaryColor" format="reference|color" />
+    <attr name="tertiaryContainerColor" format="reference|color" />
+    <attr name="surfaceBrightColor" format="reference|color" />
+    <attr name="surfaceDimColor" format="reference|color" />
+    <attr name="surfaceContainerColor" format="reference|color" />
+    <attr name="surfaceContainerHighColor" format="reference|color" />
+    <attr name="surfaceContainerHighestColor" format="reference|color" />
+    <attr name="surfaceContainerLowColor" format="reference|color" />
+    <attr name="surfaceContainerLowestColor" format="reference|color" />
+</resources>

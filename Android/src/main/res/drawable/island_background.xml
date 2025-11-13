@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 灵动岛卡片背景：圆角、深色半透明 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#CC1C1C1E"/> <!-- 深色半透明背景 -->
+    <corners android:radius="24dp"/> <!-- 大圆角，呈现胶囊形状 -->
+    <size
+        android:height="30dp"/> <!-- 固定高度，宽度自适应 -->
+</shape>
+    

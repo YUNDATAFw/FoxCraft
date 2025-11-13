@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/homepage"
+      android:enabled="true"
+      android:icon="@drawable/homepage"
+      android:title="@string/home_bottom_navigation_homepage"/>
+  <item
+      android:id="@+id/settings"
+      android:enabled="true"
+      android:icon="@drawable/cog"
+      android:title="@string/home_bottom_navigation_settings"/>
+</menu>

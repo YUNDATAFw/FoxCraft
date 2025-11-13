@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_height="match_parent"
+     android:layout_width="match_parent"
+     android:background="@drawable/gradient_2025_0827_004513"
+     android:orientation="vertical"
+     tools:context=".MainActivity">
+
+    <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:layout_margin="6dp"
+         android:textSize="35sp"
+         android:text="狐狸科技"
+         android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         app:cardElevation="0dp"
+        app:cardBackgroundColor="#88ffffff"
+         android:layout_margin="12dp"
+         app:cardCornerRadius="16dp">
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:gravity="center_horizontal"
+             android:orientation="vertical">
+
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_marginTop="25dp"
+                 android:id="@+id/startFloatingButton"
+                 android:text="启动悬浮键盘" />
+
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_marginTop="25dp"
+                 android:id="@+id/closeFloatingButton"
+                 android:text="关闭悬浮键盘" />
+
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_marginTop="25dp"
+                 android:id="@+id/setupImeButton"
+                 android:text="设置系统输入法" />
+
+            <Button
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:layout_marginTop="25dp"
+                 android:id="@+id/exit"
+                 android:text="exit" />
+
+            <TextView
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:textSize="16sp"
+                 android:id="@+id/tv_key_log"
+                 android:text="" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

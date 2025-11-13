@@ -1,0 +1,58 @@
+{
+    "autoClick": {
+        "status": false,
+        "frequency": 500
+    },
+        "autoPlace": {
+        "status": false,
+        "frequency": 500
+    },
+    "autoJump": {
+        "status": false,
+        "frequency": 500
+    },
+    "autoWalk": {
+        "status": false,
+        "frequency": -1
+    },
+    "wsadCycle": {
+        "status": false,
+        "frequency": 0
+    },
+    "FramePick": {
+        "status": false,
+        "frequency": -2
+    },
+    "EntityCrash": {
+        "status": false,
+        "frequency": 1000
+    },
+    "dataInput": {
+        "status": false,
+        "frequency": -2
+    },
+    "extract": {
+        "status": false,
+        "frequency": -2
+    },
+    "entityCrash": {
+        "status": false,
+        "frequency": -2
+    },
+    "dataInjection": {
+        "status": false,
+        "frequency": -2
+    },
+    "watermark": {
+        "status": true,
+        "frequency": -2
+    },
+    "notification": {
+        "status": false,
+        "frequency": -2
+    },
+    "functionDisplay": {
+        "status": true,
+        "frequency": -2
+    }
+}

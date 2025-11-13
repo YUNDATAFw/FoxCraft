@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:layout_margin="2dp"
+     app:cardElevation="0dp"
+     app:cardBackgroundColor="#111111"
+     app:cardCornerRadius="12dp">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:padding="5dp"
+         android:orientation="vertical"
+         android:id="@+id/bg">
+
+        <ImageView
+             android:layout_height="18dp"
+             android:layout_width="18dp"
+             android:src="@drawable/bookmark_multiple"
+             android:background="@drawable/icon_bg_2"
+             android:padding="2dp"
+             android:layout_margin="1dp"
+             android:tint="#ffffff"
+             android:id="@+id/imageView" />
+
+        <LinearLayout
+             android:layout_height="match_parent"
+             android:layout_width="match_parent"
+             android:gravity="bottom|right"
+             android:padding="1dp">
+
+            <LinearLayout
+                 android:layout_height="wrap_content"
+                 android:layout_width="wrap_content"
+                 android:orientation="vertical">
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="11sp"
+                     android:textColor="#fff"
+                     android:textStyle="bold"
+                     android:id="@+id/textView"
+                     android:text="Item" />
+
+                <TextView
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:textSize="7sp"
+                     android:textColor="#fff"
+                     android:id="@+id/textView_content"
+                     android:text="关闭" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

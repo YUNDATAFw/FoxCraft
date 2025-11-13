@@ -1,0 +1,160 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style
+        name="Base.AppTheme"
+        parent="Theme.Material3.DayNight.NoActionBar"
+        
+    >
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">?attr/inversePrimaryColor</item>
+    </style>
+    <!-- 底部导航栏属性 -->
+    <style
+        name="App.Custom.Indicator"
+        parent="Widget.Material3.BottomNavigationView.ActiveIndicator"
+        
+    >
+        <item name="android:color">?attr/primaryContainerColor</item>
+    </style>
+    <!-- 圆形形状外观样式定义 -->
+    <style
+        name="ShapeAppearance.App.Corner.Full"
+        parent="ShapeAppearance.MaterialComponents.SmallComponent"
+        >
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+  
+    <!-- Red Theme Style -->
+    <style
+        name="Theme.Red"
+        parent="Base.AppTheme"
+        
+    >
+        <!-- Light Color Scheme -->
+        <item name="backgroundColor">@color/red_background</item>
+        <item name="errorColor">@color/red_error</item>
+        <item name="errorContainerColor">@color/red_errorContainer</item>
+        <item name="inverseOnSurfaceColor">@color/red_inverseOnSurface</item>
+        <item name="inversePrimaryColor">@color/red_inversePrimary</item>
+        <item name="inverseSurfaceColor">@color/red_inverseSurface</item>
+        <item name="onBackgroundColor">@color/red_onBackground</item>
+        <item name="onErrorColor">@color/red_onError</item>
+        <item name="onErrorContainerColor">@color/red_onErrorContainer</item>
+        <item name="onPrimaryColor">@color/red_onPrimary</item>
+        <item name="onPrimaryContainerColor">@color/red_onPrimaryContainer</item>
+        <item name="onSecondaryColor">@color/red_onSecondary</item>
+        <item name="onSecondaryContainerColor">@color/red_onSecondaryContainer</item>
+        <item name="onSurfaceColor">@color/red_onSurface</item>
+        <item name="onSurfaceVariantColor">@color/red_onSurfaceVariant</item>
+        <item name="onTertiaryColor">@color/red_onTertiary</item>
+        <item name="onTertiaryContainerColor">@color/red_onTertiaryContainer</item>
+        <item name="outlineColor">@color/red_outline</item>
+        <item name="outlineVariantColor">@color/red_outlineVariant</item>
+        <item name="primaryColor">@color/red_primary</item>
+        <item name="primaryContainerColor">@color/red_primaryContainer</item>
+        <item name="scrimColor">@color/red_scrim</item>
+        <item name="secondaryColor">@color/red_secondary</item>
+        <item name="secondaryContainerColor">@color/red_secondaryContainer</item>
+        <item name="surfaceColor">@color/red_surface</item>
+        <item name="surfaceTintColor">@color/red_surfaceTint</item>
+        <item name="surfaceVariantColor">@color/red_surfaceVariant</item>
+        <item name="tertiaryColor">@color/red_tertiary</item>
+        <item name="tertiaryContainerColor">@color/red_tertiaryContainer</item>
+        <item name="surfaceBrightColor">@color/red_surfaceBright</item>
+        <item name="surfaceDimColor">@color/red_surfaceDim</item>
+        <item name="surfaceContainerColor">@color/red_surfaceContainer</item>
+        <item name="surfaceContainerHighColor">@color/red_surfaceContainerHigh</item>
+        <item name="surfaceContainerHighestColor">@color/red_surfaceContainerHighest</item>
+        <item name="surfaceContainerLowColor">@color/red_surfaceContainerLow</item>
+        <item name="surfaceContainerLowestColor">@color/red_surfaceContainerLowest</item>
+    </style>
+    <!-- Green Theme Style -->
+    <style
+        name="Theme.Green"
+        parent="Base.AppTheme"
+        
+    >
+        <!-- Light Color Scheme -->
+        <item name="backgroundColor">@color/green_background</item>
+        <item name="errorColor">@color/green_error</item>
+        <item name="errorContainerColor">@color/green_errorContainer</item>
+        <item name="inverseOnSurfaceColor">@color/green_inverseOnSurface</item>
+        <item name="inversePrimaryColor">@color/green_inversePrimary</item>
+        <item name="inverseSurfaceColor">@color/green_inverseSurface</item>
+        <item name="onBackgroundColor">@color/green_onBackground</item>
+        <item name="onErrorColor">@color/green_onError</item>
+        <item name="onErrorContainerColor">@color/green_onErrorContainer</item>
+        <item name="onPrimaryColor">@color/green_onPrimary</item>
+        <item name="onPrimaryContainerColor">@color/green_onPrimaryContainer</item>
+        <item name="onSecondaryColor">@color/green_onSecondary</item>
+        <item name="onSecondaryContainerColor">@color/green_onSecondaryContainer</item>
+        <item name="onSurfaceColor">@color/green_onSurface</item>
+        <item name="onSurfaceVariantColor">@color/green_onSurfaceVariant</item>
+        <item name="onTertiaryColor">@color/green_onTertiary</item>
+        <item name="onTertiaryContainerColor">@color/green_onTertiaryContainer</item>
+        <item name="outlineColor">@color/green_outline</item>
+        <item name="outlineVariantColor">@color/green_outlineVariant</item>
+        <item name="primaryColor">@color/green_primary</item>
+        <item name="primaryContainerColor">@color/green_primaryContainer</item>
+        <item name="scrimColor">@color/green_scrim</item>
+        <item name="secondaryColor">@color/green_secondary</item>
+        <item name="secondaryContainerColor">@color/green_secondaryContainer</item>
+        <item name="surfaceColor">@color/green_surface</item>
+        <item name="surfaceTintColor">@color/green_surfaceTint</item>
+        <item name="surfaceVariantColor">@color/green_surfaceVariant</item>
+        <item name="tertiaryColor">@color/green_tertiary</item>
+        <item name="tertiaryContainerColor">@color/green_tertiaryContainer</item>
+        <item name="surfaceBrightColor">@color/green_surfaceBright</item>
+        <item name="surfaceDimColor">@color/green_surfaceDim</item>
+        <item name="surfaceContainerColor">@color/green_surfaceContainer</item>
+        <item name="surfaceContainerHighColor">@color/green_surfaceContainerHigh</item>
+        <item name="surfaceContainerHighestColor">@color/green_surfaceContainerHighest</item>
+        <item name="surfaceContainerLowColor">@color/green_surfaceContainerLow</item>
+        <item name="surfaceContainerLowestColor">@color/green_surfaceContainerLowest</item>
+    </style>
+    <!-- Blue Theme Style -->
+    <style
+        name="Theme.Blue"
+        parent="Base.AppTheme"
+        
+    >
+        <!-- Light Color Scheme -->
+        <item name="backgroundColor">@color/blue_background</item>
+        <item name="errorColor">@color/blue_error</item>
+        <item name="errorContainerColor">@color/blue_errorContainer</item>
+        <item name="inverseOnSurfaceColor">@color/blue_inverseOnSurface</item>
+        <item name="inversePrimaryColor">@color/blue_inversePrimary</item>
+        <item name="inverseSurfaceColor">@color/blue_inverseSurface</item>
+        <item name="onBackgroundColor">@color/blue_onBackground</item>
+        <item name="onErrorColor">@color/blue_onError</item>
+        <item name="onErrorContainerColor">@color/blue_onErrorContainer</item>
+        <item name="onPrimaryColor">@color/blue_onPrimary</item>
+        <item name="onPrimaryContainerColor">@color/blue_onPrimaryContainer</item>
+        <item name="onSecondaryColor">@color/blue_onSecondary</item>
+        <item name="onSecondaryContainerColor">@color/blue_onSecondaryContainer</item>
+        <item name="onSurfaceColor">@color/blue_onSurface</item>
+        <item name="onSurfaceVariantColor">@color/blue_onSurfaceVariant</item>
+        <item name="onTertiaryColor">@color/blue_onTertiary</item>
+        <item name="onTertiaryContainerColor">@color/blue_onTertiaryContainer</item>
+        <item name="outlineColor">@color/blue_outline</item>
+        <item name="outlineVariantColor">@color/blue_outlineVariant</item>
+        <item name="primaryColor">@color/blue_primary</item>
+        <item name="primaryContainerColor">@color/blue_primaryContainer</item>
+        <item name="scrimColor">@color/blue_scrim</item>
+        <item name="secondaryColor">@color/blue_secondary</item>
+        <item name="secondaryContainerColor">@color/blue_secondaryContainer</item>
+        <item name="surfaceColor">@color/blue_surface</item>
+        <item name="surfaceTintColor">@color/blue_surfaceTint</item>
+        <item name="surfaceVariantColor">@color/blue_surfaceVariant</item>
+        <item name="tertiaryColor">@color/blue_tertiary</item>
+        <item name="tertiaryContainerColor">@color/blue_tertiaryContainer</item>
+        <item name="surfaceBrightColor">@color/blue_surfaceBright</item>
+        <item name="surfaceDimColor">@color/blue_surfaceDim</item>
+        <item name="surfaceContainerColor">@color/blue_surfaceContainer</item>
+        <item name="surfaceContainerHighColor">@color/blue_surfaceContainerHigh</item>
+        <item name="surfaceContainerHighestColor">@color/blue_surfaceContainerHighest</item>
+        <item name="surfaceContainerLowColor">@color/blue_surfaceContainerLow</item>
+        <item name="surfaceContainerLowestColor">@color/blue_surfaceContainerLowest</item>
+    </style>
+</resources>

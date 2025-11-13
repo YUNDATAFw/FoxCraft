@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:layout_height="wrap_content"
+     android:layout_width="match_parent"
+     android:layout_margin="5dp"
+     app:cardElevation="0dp"
+     app:cardBackgroundColor="#00ffffff"
+     app:cardCornerRadius="5dp"
+     android:layout_gravity="center_horizontal|end">
+
+    <LinearLayout
+         android:layout_height="match_parent"
+         android:layout_width="match_parent"
+         android:background="#88000000"
+         android:orientation="horizontal"
+         android:id="@+id/bg">
+
+        <com.william.gradient.GradientTextView
+             android:layout_height="wrap_content"
+             android:layout_width="wrap_content"
+             android:layout_margin="5dp"
+             android:textColor="#FFACE9FE"
+             app:gradient_endColor="#FFCA9EEF"
+             app:gradient_startColor="#FFACE9FE"
+             android:layout_weight="1"
+             android:text="狐狸科技 永久用户 5201314"
+             android:textStyle="bold"
+             android:id="@+id/featureName"
+             android:layout_gravity="center" />
+
+        <View
+             android:layout_height="match_parent"
+             android:layout_width="3dp"
+             android:id="@+id/view" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

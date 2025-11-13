@@ -1,0 +1,70 @@
+{
+    "_title": "拓展插件",
+    "_type": "_PLUGIN_PACK_",
+    "_version": "1.0.0",
+    "_description": "包含自动丢弃和手动丢弃功能，通过Q键组合实现快速操作",
+    "_author": "开发团队 <plugin-support@example.com>",
+    "_plugin": [
+        {
+            "name": "自动丢弃",
+            "id": "com.example.plugins.autodrop",
+            "version": "1.0.0",
+            "description": "开启后每100毫秒自动执行一次Q键组合，用于快速丢弃操作",
+            "model": "_Style.SWITCH_",
+            "program": {
+                "other.On": [
+                    {
+                        "class": "IKeyIuputTool",
+                        "Input": {
+                            "rate": 100,
+                            "key": "_Q_",
+                            "onKey": "_Z_",
+                            "fnKey": [],
+                            "repeat": -1
+                        }
+                    }
+                ],
+                "other.Off": [],
+                "on.On": [
+                    {
+                        "class": "Toast",
+                        "message": "自动丢弃已激活",
+                        "duration": 2000,
+                        "type": "success"
+                    }
+                ],
+                "on.Off": [
+                    {
+                        "class": "Toast",
+                        "message": "自动丢弃已关闭",
+                        "duration": 2000,
+                        "type": "info"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "丢弃",
+            "id": "com.example.plugins.manualdrop",
+            "version": "1.0.0",
+            "description": "点击后执行一次Q键，用于手动触发丢弃操作",
+            "model": "_Style.Button_",
+            "program": {
+                "on.On": [],
+                "on.Off": [],
+                "on.Activate": [
+                    {
+                        "class": "IKeyIuputTool",
+                        "Input": {
+                            "rate": -1,
+                            "key": "_Q_",
+                            "onKey": "_Z_",
+                            "fnKey": [],
+                            "delay": 100
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
